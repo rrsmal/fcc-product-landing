@@ -15,11 +15,8 @@ h2 {
 }
 
 .container {
-    max-width: 980px;
+    max-width: 980px ;
     margin: auto;
 }
 
-img {
-    display: block;
-    width: 100%;
-}
+

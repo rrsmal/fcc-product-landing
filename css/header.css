@@ -1,5 +1,6 @@
 .header__nav {
     background-color: var(--backgroung-color);
+    position: fixed;
 }
 
 #nav-bar {
