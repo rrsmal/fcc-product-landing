@@ -1,7 +1,7 @@
 :root {
     font-family: Georgia, 'Times New Roman', Times, serif;
     --text-color: rgb(106, 60, 165);
-    --backgroung-color: rgb(124, 28, 92);
+    --backgroung-color: rgb(243, 219, 8);
 }
 
 h2 {
@@ -17,4 +17,9 @@ h2 {
 .container {
     max-width: 980px;
     margin: auto;
+}
+
+img {
+    display: block;
+    width: 100%;
 }

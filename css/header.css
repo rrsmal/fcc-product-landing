@@ -1,18 +1,5 @@
-.header__nav-logo {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    text-align: center;
-}
-
 .header__nav {
-    background-color: bisque;
-}
-
-@media (min-width: 500px) {
-    .header__nav>.container {
-        display: flex;
-    }
+    background-color: var(--backgroung-color);
 }
 
 #nav-bar {
@@ -21,11 +8,45 @@
     padding: 5px;
 }
 
+@media (min-width: 500px) {
+
+    .header__nav .container {
+        display: flex;
+    }
+
+    #nav-bar {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+    }
+}
+
+
+h1,
+.header__nav-logo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
 #nav-bar a {
     text-decoration: none;
-    color: var(--text-color);
+    color: --text-color;
 }
 
 #nav-bar a:hover {
     text-decoration: underline;
+}
+
+.header-banner {
+    background-image: url(../img/lignyk.jpg);
+    min-height: 600px;
+    background-size: cover;
+    background-position: 50%, 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
